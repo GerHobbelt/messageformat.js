@@ -8,7 +8,6 @@
  * @license WTFPL
  * @contributor_license Dojo CLA
 */
-(function ( root ) {
 
   // Create the contructor function
   function MessageFormat ( locale, pluralFunc ) {
@@ -1578,4 +1577,3 @@
     root['MessageFormat'] = MessageFormat;
   }
 
-})( this );
