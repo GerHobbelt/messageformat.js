@@ -10,8 +10,10 @@ ERR=${RED} ✖${STOP}
 
 BIN=./node_modules/.bin
 
-.PHONY: test test-browser clean
+.PHONY: test test-browser clean doc all
 
+
+all: messageformat.js doc test
 
 messageformat.js: lib/messageformat.js lib/messageformat-parser.js
 	@${BIN}/browserify $< -s MessageFormat -o $@
