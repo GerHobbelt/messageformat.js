@@ -36,7 +36,7 @@
   ],
   "dependencies": {
     "async": "~1.4.2",
-    "glob": "~5.0.14",
+    "glob": "~9.0.0",
     "make-plural": "^3.0.0",
     "nopt": "~3.0.3",
     "watchr": "~2.4.13"
